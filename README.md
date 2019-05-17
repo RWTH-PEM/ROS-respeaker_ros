@@ -14,16 +14,11 @@ A ROS Package for Respeaker Mic Array
 
 1. Install this package
 
-    ```bash
-    mkdir -p ~/catkin_ws/src && ~/catkin_ws/src
-    git clone https://github.com/furushchev/respeaker_ros.git
-    cd ~/catkin_ws
-    source /opt/ros/kinetic/setup.bash
-    rosdep install --from-paths src -i -r -n -y
-    catkin config --init
-    catkin build respeaker_ros
-    source ~/catkin_ws/devel/setup.bash
-    ```
+    Copy to your ros workspace
+    rosdep install
+    sudo apt-get install portaudio19-dev
+    pip install PyAudio
+    catkin_make
 
 1. Register respeaker udev rules
 
