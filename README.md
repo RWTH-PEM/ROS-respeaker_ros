@@ -1,8 +1,7 @@
 respeaker_ros
 =============
 
-A ROS Package for Respeaker Mic Array
-
+This is a fork of [respeaker_ros](https://github.com/furushchev/respeaker_ros) with some minor changes like language and an updated README file.
 
 ## Supported Devices
 
